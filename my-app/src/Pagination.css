@@ -1,0 +1,22 @@
+.pagination {
+    display: flex;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .page-item {
+    margin: 0 5px;
+  }
+  
+  .page-item a {
+    text-decoration: none;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    color: #007bff;
+    cursor: pointer;
+  }
+  
+  .page-item.active a {
+    background-color: #007bff;
+    color: white;
+  }
